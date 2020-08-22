@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid">
+<div class="header"><h1>Play Rock Paper Scissors</h1></div>
+<!-- <div class="games"><h2>Score by game</h2> -->
+<div class="container"><h2>Game Totals</h2>
+    <img src="/image/Paper.png" alt="">
+    <img src="/image/Rock.jpeg" alt="">
+    <img src="/image/Scissors.png" alt="">
+    <div class="scores">
+        <div class="paper">Paper Total</div>
+        <div class="rock">Rock Total</div>
+        <div class="scissors">Scissors Total</div>
+    </div>
+
+</div>
+<div class="play">
+    <div>
+        <h2>Game on Lets Play !!!!!</h2>
+    </div>
+    <img src="/image/Paper.png" id="paper" onclick="removeElement(this)" alt="">
+    <img src="/image/Rock.jpeg" id="rock" onclick="removeElement(this)" alt="">
+    <img src="/image/Scissors.png" id="scissors" onclick="location.reload()" ,onclick="removeElement(this)" alt="">
+</div>
+<div class="results"></div>
+</div>
+
+    <!-- </div> -->
+    <script src="script.js"></script>
+</body>
+</html>

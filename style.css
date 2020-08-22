@@ -1,0 +1,81 @@
+body
+{
+    font-family: 'Roboto';
+    /* background-color: rgb(240, 140, 190); */
+    height: auto;
+  
+}
+.header h1:hover
+{
+color: darkblue;
+cursor: pointer;
+font-size:40px;
+
+}
+
+.container img
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.header,.games, .grid
+{
+    text-align: center;
+}
+.scores
+{
+    display: flex;
+    /* background-color: lightblue; */
+    height: 100px;
+   justify-content: center;
+
+}
+.play img:hover
+{
+  box-shadow: -1px -1px 1px 3px blue;
+}
+
+.paper ,.rock , .scissors
+{
+width: 180px;
+border: 1px solid black;
+margin: 5px 5px;
+padding: 10px;
+font-weight: bold;
+}
+
+.games
+{
+    border: 1px solid black;
+}
+.play img
+{
+    height: 300px;
+    width: 300px;
+}
+
+.play div
+{
+    background-color: darkcyan;
+}
+.container h2
+{
+    background-color: darkcyan;  
+}
+.results
+{
+    display: flex;
+    box-shadow: 2px 2px 4px 1px;
+    height: 100px;
+    width: 75%;
+    margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.play img:hover
+{
+    cursor: pointer;
+}
