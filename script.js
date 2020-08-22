@@ -26,9 +26,9 @@ document.getElementsByClassName("results")[0].appendChild(sd);
 console.log(sd);
 
 function removeElement(mychoice){
-var imgpaper  = document.getElementById("paper").remove();
-var imgrock  = document.getElementById("rock").remove();
-var imgscissors  = document.getElementById("scissors").remove();
+// var imgpaper  = document.getElementById("paper").remove();
+// var imgrock  = document.getElementById("rock").remove();
+// var imgscissors  = document.getElementById("scissors").remove();
 }
 
 
